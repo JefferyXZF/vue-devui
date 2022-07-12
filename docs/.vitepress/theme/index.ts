@@ -1,5 +1,5 @@
-import DevUI from '../../../../../packages/devui-vue/devui/vue-devui';
-import Locale from '../../../../../packages/devui-vue/devui/locale'
+import DevUI from '../../../packages/devui-vue/devui/vue-devui';
+import Locale from '../../../packages/devui-vue/devui/locale'
 import Theme from '../devui-theme'
 import 'vitepress-theme-demoblock/theme/styles/index.css'
 import { registerComponents } from './register-components.js'
