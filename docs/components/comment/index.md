@@ -35,7 +35,6 @@
 
     <template v-slot:avatar>
       <a class="comment-demo-custom__avatar" href="https://juejin.cn/user/712139267650141" target="_blank">
-        <d-avatar :isRound="false" imgSrc="https://vue-devui.github.io/assets/logo.svg"></d-avatar>
       </a>
     </template>
 

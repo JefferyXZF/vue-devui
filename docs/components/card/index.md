@@ -175,7 +175,6 @@
 <template>
   <d-card class="card-demo-custom-area" :align="'spaceBetween'">
     <div class="custom-avatar">
-      <d-avatar imgSrc="https://devui.design/components/assets/logo.svg" :width="48" :height="48" :isRound="false"></d-avatar>
       <div class="icon-star-o custom-star-action"></div>
     </div>
     <template v-slot:title> DEVUI Course </template>
@@ -238,59 +237,6 @@
 ```
 
 :::
-
-<style lang="scss">
-@import '@devui-design/icons/icomoon/devui-icon.css';
-.card-demo-icon {
-  cursor: pointer;
-  font-size: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
-}
-.card-demo-icon + span {
-  vertical-align: middle;
-}
-.card-block {
-  margin-right: 16px;
-  i{
-    cursor: pointer;
-    font-size: 16px;
-    margin-right: 8px;
-    vertical-align: middle;
-  }
-  i + span {
-    vertical-align: middle;
-  }
-}
-.d-card {
-  cursor: pointer;
-  transition:
-    box-shadow .3s cubic-bezier(.645,.045,.355,1),
-    transform .3s cubic-bezier(.645,.045,.355,1);
-  &:hover {
-    box-shadow: 0 4px 16px 0 rgba(0,0,0,.1);
-    transform: translateY(-5px);
-  }
-}
-.card-container {
-  width: 350px;
-}
-img {
-  max-width: none;
-}
-.action-text {
-  color: #8a8e99;
-}
-.custom-avatar {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 16px;
-  .custom-star-action {
-    font-size: 20px;
-    cursor: pointer;
-  }
-}
-</style>
 
 ### Card 参数
 

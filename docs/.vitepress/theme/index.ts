@@ -8,7 +8,8 @@ import { insertBaiduScript } from './insert-baidu-script'
 export default {
   ...Theme,
   enhanceApp({ app }) {
-    app.use(Locale).use(DevUI)
+    // app.use(Locale).use(DevUI)
+    app.use(DevUI)
     registerComponents(app)
     insertBaiduScript()
   }

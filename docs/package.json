@@ -10,11 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "devui-theme": "workspace:0.0.1"
+    "@devui-design/icons": "^1.3.0",
+    "devui-theme": "workspace:^0.0.1",
+    "vue": "^3.1.1",
+    "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@devui-design/icons": "^1.3.0",
-    "@vitejs/plugin-vue-jsx": "^1.3.7",
+    "@vitejs/plugin-vue-jsx": "^1.1.0",
     "vite": "^2.9.14",
     "vite-plugin-md": "^0.6.0",
     "vite-svg-loader": "^2.2.0",

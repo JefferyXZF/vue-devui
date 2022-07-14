@@ -24,7 +24,7 @@ const config = defineConfig({
     sidebar,
     nav,
     demoblock: lang,
-    logo: '../../assets/logo.svg',
+    // logo: '../../assets/logo.svg',
     locales: {
       '/': {
         lang: 'zh-CN',

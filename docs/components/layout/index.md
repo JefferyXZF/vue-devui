@@ -142,7 +142,6 @@
         <d-header class="dheader-1">
             <div class="logo">
                 <span class="logo-devui">
-                    <img src="https://devui.design/components/assets/logo.svg" width="26" height="26" />
                 </span>
                 <span class="text">DevUI</span>
             </div>
@@ -226,7 +225,7 @@
         <d-header class="dheader-2">
             <div class="logo">
             <span class="logo-devui">
-                <img src="https://devui.design/components/assets/logo.svg" width="26px" height="26px" />
+                <!-- <img src="https://devui.design/components/assets/logo.svg" width="26px" height="26px" /> -->
             </span>
             <span class="text">DevUI</span>
             </div>

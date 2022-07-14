@@ -16,7 +16,6 @@
 <template>
   <div class="demo-spacing">
     <d-icon name="like"></d-icon>
-    <d-icon name="https://devui.design/components/assets/logo.svg" size="16px"></d-icon>
   </div>
 </template>
 ```
@@ -43,7 +42,7 @@
   </d-icon>
   <br />
   <br />
-  <d-icon name="https://devui.design/components/assets/logo.svg" size="16px" operable>
+  <!-- <d-icon name="https://devui.design/components/assets/logo.svg" size="16px" operable> -->
     <template #suffix>
       <span>Logo</span>
     </template>

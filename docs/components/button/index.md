@@ -13,7 +13,7 @@
 ```vue
 <template>
   <div class="demo-spacing">
-    <d-button variant="solid">Solid Button</d-button>
+    <button-beifen variant="solid">Solid Button</button-beifen>
     <d-button>Outline Button</d-button>
     <d-button variant="text">Text Button</d-button>
   </div>
