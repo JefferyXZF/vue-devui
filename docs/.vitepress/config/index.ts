@@ -8,7 +8,7 @@ import lang from './lang'
 const config = defineConfig({
   title: 'Vue DevUI',
   description: 'Vue DevUI 组件库',
-  head,
+  // head,
   markdown,
   locales: {
     '/': {

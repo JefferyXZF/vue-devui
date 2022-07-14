@@ -36,9 +36,5 @@
     "vite": "^2.9.14",
     "vite-plugin-vue2": "^2.0.1",
     "vue-template-compiler": "^2.7.4"
-  },
-  "lint-staged": {
-    "packages/**/{*.vue,*.js,*.ts,*.jsx,*.tsx}": "eslint --fix",
-    "packages/**/{*.scss,*.css}": "stylelint --fix"
   }
 }
