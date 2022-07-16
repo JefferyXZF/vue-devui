@@ -2,6 +2,16 @@ lockfileVersion: 5.4
 
 importers:
 
+  internal/build:
+    specifiers:
+      '@vitejs/plugin-vue2': ^1.1.2
+      vite: ^2.9.14
+      vue: ^2.7.5
+    devDependencies:
+      '@vitejs/plugin-vue2': 1.1.2_vite@2.9.14+vue@2.7.5
+      vite: 2.9.14
+      vue: 2.7.5
+
   play:
     specifiers:
       '@douluo-ui/components': workspace:^0.0.5
@@ -535,6 +545,17 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    dev: true
+
+  /@vitejs/plugin-vue2/1.1.2_vite@2.9.14+vue@2.7.5:
+    resolution: {integrity: sha512-y6OEA+2UdJ0xrEQHodq20v9r3SpS62IOHrgN92JPLvVpNkhcissu7yvD5PXMzMESyazj0XNWGsc8UQk8+mVrjQ==}
+    engines: {node: '>=14.6.0'}
+    peerDependencies:
+      vite: '>=2.5.10'
+      vue: ^2.7.0-0
+    dependencies:
+      vite: 2.9.14
+      vue: 2.7.5
     dev: true
 
   /@vue/babel-helper-vue-jsx-merge-props/1.2.1:

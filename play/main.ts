@@ -1,6 +1,10 @@
 import Vue from 'vue'
-import DouluoUI from '@douluo-ui/components'
+// import DouluoUI from '@douluo-ui/components'
+
+import DouluoUI from '../dist/douluo-ui.es'
 import App from './App.vue'
+
+
 
 Vue.use(DouluoUI)
 
